@@ -1,0 +1,124 @@
+CSS reset Eric Meyers
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*====================
+Custom CSS Begins here
+====================*/
+
+
+main {
+    margin: 50px;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 36px; 
+    text-indent: 3%; 
+    margin-bottom: 15px;
+}
+.box1 {
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: rgb(182, 44, 42);
+}
+.box2 {
+    margin-top: 50px;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(182, 44, 42);
+    margin-right: 50px;
+    border: 5px double black;
+}
+.box3 {
+    display: inline-block;
+    width: 300px;
+    background-color: rgb(182, 44, 42);
+    height: 200px;
+    border: 5px dotted black;
+}
+.box4 {
+    margin-top: 50px;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    border: 5px dotted black;
+    margin-right: 50px;
+    background-color: rgb(182, 44, 42);
+}
+.box5 {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(182, 44, 42);
+}
+.wrapper {
+    margin-top: 50px;
+    border: solid rgb(132, 47, 124);
+    border-top: 20px;
+    border-left: 10px;
+    border-top: 20px;
+    border-top: 20px;
+    width: 25%;
+}
+.colorfulBox {
+    padding: 5px;
+    background-color: rgb(238, 60, 57);
+    border: 10px inset;
+    border-top-color: rgb(35,81, 241);
+    border-right-color: rgb(128, 128,128);
+    border-left-color: rgb(101, 184, 78);
+    border-bottom-color: rgb(253, 245, 95);
+    box-shadow: 0px 5px 0px 20px rgb(132, 47, 124);
+    
+}
+
